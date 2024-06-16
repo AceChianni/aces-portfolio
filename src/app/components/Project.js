@@ -1,13 +1,20 @@
 import React from "react";
 
-export default function Project(props) {
+const Project = ({ title, description, link }) => {
   return (
-    <div className="p-5 m-5 bg-green-500 border border-black rounded-md">
-      Title: {props.title}
-      <br></br>
-      Description: {props.description}
-      <br></br>
-      Link: {props.link}
+    <div className="m-4 p-4 border rounded shadow-lg">
+      <h3 className="text-xl font-bold mb-2">{title}</h3>
+      <p className="mb-2">{description}</p>
+      <a
+        href={link}
+        className="text-blue-500 hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View Project
+      </a>
     </div>
   );
-}
+};
+
+export default Project;

@@ -1,5 +1,11 @@
-import React from "react";
+import ContactForm from "@/app/components/ContactForm";
 
-export default function page() {
-  return <div></div>;
-}
+const Contact = () => {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-forest-green-700">
+      <ContactForm />
+    </div>
+  );
+};
+
+export default Contact;

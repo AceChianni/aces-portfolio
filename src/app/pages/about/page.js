@@ -1,5 +1,11 @@
-import React from "react";
+import AboutMe from "@/app/components/AboutMe";
 
-export default function page() {
-  return <div></div>;
-}
+const About = () => {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-forest-green-700">
+      <AboutMe />
+    </div>
+  );
+};
+
+export default About;
