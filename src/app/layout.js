@@ -23,19 +23,19 @@ export default function RootLayout({ children }) {
             </Link>
             <Link
               className="m-1 text-emerald-500 hover:text-emerald-700"
-              href="/about"
+              href="/pages/about"
             >
               About
             </Link>
             <Link
               className="m-1 text-emerald-500 hover:text-emerald-700"
-              href="/projects"
+              href="/pages/projects"
             >
               Projects
             </Link>
             <Link
               className="m-1 text-emerald-500 hover:text-emerald-700"
-              href="/contact"
+              href="/pages/contact"
             >
               Contact
             </Link>
